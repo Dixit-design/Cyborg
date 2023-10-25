@@ -1,0 +1,1264 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none !important;
+    list-style: none !important;
+}
+
+body {
+    background-color: #1f2122 !important;
+}
+
+/*================================== header section   ============================================*/
+
+
+.text-666 {
+    color: #666 !important;
+}
+
+.logo {
+    border-right: 1px solid #27292a !important;
+    margin-right: 18px !important;
+}
+
+.form-control {
+    background-color: #27292a !important;
+    height: 46px;
+    border-radius: 23px !important;
+    border: none;
+    color: #666666 !important;
+    font-size: 14px !important;
+    padding: 0px 15px 0px 45px !important;
+    border-color: #27292a !important;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+    border-color: transparent !important;
+
+}
+
+.search-box i {
+    position: absolute;
+    color: #666;
+    left: 20px;
+    top: 16px;
+    width: 18px;
+    height: 18px;
+    font-size: 16px;
+}
+
+.position-sticky {
+    background-color: #1f2122;
+    z-index: 99999;
+}
+
+.nav-item a {
+    padding: 11px 20px !important;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.nav-item a:hover {
+    color: #e75e8d !important;
+}
+
+.nav-profile img {
+    max-width: 30px;
+    border-radius: 50%;
+    margin-left: 7px;
+}
+
+.nav-profile a {
+    background-color: #27292a;
+    padding: 8px 10px 8px 20px !important;
+    border-radius: 23px;
+
+}
+
+.nav-profile {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+}
+
+.nav-profile a:hover {
+    color: #fff !important;
+    background-color: #e75e8d !important;
+}
+
+
+
+.navbar-light .navbar-toggler-icon {
+    background-image: none !important;
+    color: #e75e8d;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+
+}
+
+.navbar-light .navbar-toggler {
+    border-color: transparent !important;
+}
+
+
+/*================================== slider section   ============================================*/
+
+.page-content {
+    margin-top: 20px;
+    background-color: #27292a;
+    padding: 60px;
+    border-radius: 23px;
+}
+
+.bg-img {
+    background-image: url(../img/banner-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 380px;
+    border-radius: 23px;
+    padding: 80px 60px;
+}
+
+.header-text h6 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.header-text h4 {
+    font-size: 45px;
+    /* text-transform: uppercase; */
+    margin-bottom: 25px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.header-text h4 em {
+    font-style: normal;
+    color: #ec6090;
+}
+
+.main-button a {
+    font-size: 14px;
+    color: #fff;
+    background-color: #e75e8d;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    overflow: hidden;
+    transition: all 0.5s;
+    text-align: center;
+}
+
+.main-button a:hover {
+    color: #e75e8d;
+    background-color: #ffffff;
+}
+
+/*================================== 1 section  */
+
+.most-popular {
+    margin-top: 60px;
+    padding: 30px;
+    background-color: #1f2122;
+    border-radius: 23px;
+}
+
+.heading-section h4 {
+    color: #ec6090;
+    font-size: 34px;
+    margin-bottom: 30px;
+    font-weight: 800;
+    text-transform: capitalize;
+
+
+}
+
+
+.heading-section h4 em {
+    color: #fff;
+    font-style: normal;
+    text-decoration: underline !important;
+    font-weight: 800;
+    transition: all 0.5s;
+}
+
+.heading-section h4 em:hover {
+    color: #e75e8d;
+}
+
+/* =========== card =================== */
+
+.item {
+    background-color: #27292a;
+    padding: 30px 15px;
+    border-radius: 23px;
+    margin-bottom: 30px;
+}
+
+.item img {
+    border-radius: 23px;
+}
+
+.item h4 {
+    color: #fff;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    display: inline-block;
+    font-weight: 700;
+
+
+}
+
+.item h4 span {
+    color: #666;
+    display: block;
+    margin-top: 7px;
+    font-weight: 400;
+
+}
+
+.item ul {
+    margin-top: 20px !important;
+}
+
+.item ul li {
+    text-align: right;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.item ul li:first-child i {
+    color: yellow;
+}
+
+.item ul li:last-child i {
+    color: #ec6090;
+}
+
+.most-popular .item .item {
+    padding: 0px !important;
+    border-radius: 0px;
+    margin-bottom: 0px !important;
+}
+
+.main-button {
+    margin-bottom: -53px;
+}
+
+
+/*================================== 2 section */
+
+.gaming-library {
+    margin-top: 60px;
+    padding: 30px;
+    background-color: #1f2122;
+    border-radius: 23px;
+}
+
+.item-2 {
+    border-bottom: 1px solid #27292a;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+.item-2 ul li:first-child {
+    width: 110px;
+}
+
+.templatemo-item {
+    max-width: 80px;
+    border-radius: 23px;
+}
+
+.item-2 ul li {
+    display: inline-block;
+    width: 17%;
+}
+
+.item-2 ul li h4 {
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.item-2 ul li span {
+    color: #666;
+    font-size: 14px;
+}
+
+.border-no-active a {
+    border-color: #666 !important;
+    color: #666 !important;
+}
+
+.main-border-button a {
+    font-size: 14px;
+    color: #ec6090;
+    background-color: transparent;
+    border: 1px solid #ec6090;
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 25px;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+
+.hov-btn a:hover {
+    color: #ec6090;
+    background-color: #fff;
+}
+
+/*================================== footer section   ============================================*/
+
+footer p {
+    padding: 30px 0px;
+    color: #fff;
+    font-weight: 400;
+}
+
+footer p a {
+    color: #fff;
+    transition: all 0.5s;
+}
+
+.hov:hover {
+    color: #e75e8d;
+}
+
+
+/*================================== Browse section   ============================================*/
+
+/*========================== 1 section */
+
+.featured-games {
+    border-radius: 23px;
+    background-color: #1f2122;
+    padding: 30px;
+}
+
+
+.bg-color-card {
+    background-color: #1f2122 !important;
+}
+
+.re-item {
+    background-color: #1f2122;
+
+}
+
+.re-item span {
+    font-size: 12px;
+}
+
+.hover-effect {
+    position: absolute;
+    bottom: -100px;
+    text-align: center;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+
+.hover-effect h6 {
+    background-color: #1f2122f2;
+    display: inline-block;
+    color: #ec6090;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+
+.hover-effect h6:hover {
+    color: #fff;
+    background-color: #e75e8d;
+}
+
+.thumb {
+    position: relative;
+    overflow: hidden;
+
+}
+
+.thumb:hover .hover-effect {
+    opacity: 1;
+    visibility: visible;
+    bottom: 15px;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+.top-downloaded {
+    background-color: #1f2122;
+    border-radius: 23px;
+    padding: 30px;
+    max-height: 567px;
+
+
+}
+
+.top-downloaded ul li img {
+    float: left;
+    margin-right: 15px;
+}
+
+.top-downloaded ul li {
+    border-bottom: 1px solid #27292a;
+    margin-bottom: 28px;
+    padding-bottom: 28px;
+}
+
+.top-downloaded ul li h4 {
+    font-size: 15px;
+    padding-top: 7px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.top-downloaded ul li h6 {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+
+.top-downloaded ul li span {
+    font-size: 14px;
+    color: #fff;
+}
+
+
+
+.download a i {
+    position: absolute;
+    right: 0;
+    top: 60%;
+    transform: translateY(-23px);
+    width: 46px;
+    height: 46px;
+    text-align: center;
+    line-height: 46px;
+    color: #ec6090;
+    background-color: #27292a;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+
+.download a i:hover {
+    color: #fff;
+    background-color: #ec6090;
+}
+
+/*================================== 2 section   */
+
+.start-stream .heading-section {
+    margin: 60px 0px;
+    text-align: center;
+}
+
+.start-stream .card {
+    background-color: #27292a;
+    border: 1px solid #444;
+    border-radius: 23px;
+    transition: all 0.5s;
+}
+
+.start-stream .card:hover {
+    background-color: #e75e8d;
+}
+
+.start-stream .card:hover .card-text {
+    color: #fff;
+}
+
+.start-stream .card-text {
+    color: #666;
+    font-size: 15px;
+    line-height: 30px;
+    margin-bottom: 0px;
+    transition: all 0.5s;
+}
+
+.card-icon img {
+    max-width: 60px;
+    border-radius: 50%;
+}
+
+/*================================== 3 section  */
+.live-stream {
+    margin-top: 80px;
+    border-radius: 23px;
+    background-color: #1f2122;
+    padding: 30px;
+
+}
+
+.live-stream .card {
+    background-color: transparent;
+}
+
+.live-stream span {
+    font-size: 14px;
+    color: #ec6090;
+}
+
+.live-stream span i {
+    color: #fff;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.live-stream .card-body h4 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.content-1 {
+    display: none;
+
+}
+
+.content-1 .live a {
+    position: absolute;
+    background-color: #ec6090e6;
+    padding: 5px 10px;
+    border-radius: 23px;
+    color: #fff;
+    font-size: 14px;
+    right: 15px;
+    top: 15px;
+}
+
+.content-1 ul {
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.content-1 ul li {
+    display: inline-block;
+    margin: 0px 7px;
+
+}
+
+.content-1 ul li a {
+    background-color: #ec6090e6;
+    padding: 5px 10px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 23px;
+
+}
+
+.thumb:hover .content-1 {
+    display: block;
+}
+
+/*================================== Details  section   ============================================*/
+
+
+/*================================== 1 section */
+
+.right-img a {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-23px, -23px);
+    width: 46px;
+    height: 46px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 46px;
+    color: #ec6090;
+    transition: all 0.5s;
+}
+
+.right-img a:hover {
+    color: #fff;
+    background-color: #e75e8d;
+}
+
+
+/*================================== 2 section  */
+
+.game-title h2 {
+    font-size: 45px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 60px 0px;
+    font-weight: 700;
+    color: #fff;
+
+}
+
+.game-content {
+    border-radius: 23px;
+    padding: 30px;
+    background-color: #1f2122;
+}
+
+.left-info {
+    background-color: #27292a;
+    border-radius: 23px;
+    padding: 30px;
+    margin-bottom: 30px;
+
+}
+
+.left-info .left h4 {
+    font-size: 15px;
+    display: block;
+    color: #fff;
+    font-weight: 700;
+}
+
+.left-info .left span {
+    color: #666;
+    display: block;
+    margin-top: 7px;
+    font-weight: 500;
+
+}
+
+.left-info ul li {
+    color: #fff;
+    font-size: 14px !important;
+    margin-bottom: 3px;
+    font-weight: 600;
+}
+
+.left-info ul li:first-child i {
+    color: yellow;
+}
+
+.left-info ul li:last-child i {
+    color: #ec6090;
+}
+
+
+.right-info {
+    background-color: #27292a;
+    border-radius: 23px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.right-info ul li {
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    /* width: 23%; */
+    font-weight: 600;
+}
+
+.right-info ul li i {
+    display: block;
+    margin-bottom: 12px;
+    color: #ec6090;
+}
+
+.right-info ul li:first-child i {
+    color: yellow;
+}
+
+
+.main-border-button {
+    margin-top: 35px;
+}
+
+/*================================== 3 section  */
+
+.other-games {
+    border-radius: 23px;
+    padding: 30px 30px 0px 30px;
+    background-color: #1f2122;
+    margin-top: 60px;
+}
+
+.other-games .d-item {
+    position: relative;
+    border-bottom: 1px solid #27292a;
+    padding-bottom: 52px;
+    margin-bottom: 30px;
+}
+
+.other-games .d-item img {
+    float: left;
+    margin-right: 15px;
+}
+
+.other-games .d-item h4 {
+    display: inline-block;
+    font-size: 15px;
+    margin-bottom: 5px;
+    padding-top: 15px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.other-games .d-item span {
+    display: block;
+    color: #666;
+    font-size: 14px;
+}
+
+.other-games ul {
+    position: absolute;
+    right: 0;
+    top: 15px;
+
+}
+
+.other-games ul li {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 3px;
+    text-align: end;
+    font-weight: 600;
+}
+
+.other-games ul li:first-child i {
+    color: yellow;
+}
+
+.other-games ul li:last-child i {
+    color: #ec6090;
+}
+
+/*================================== Streams section   ============================================*/
+
+/*================================== 1 section  */
+
+.top-streamers {
+    border-radius: 23px;
+    background-color: #1f2122;
+    padding: 30px;
+    min-height: 567px;
+}
+
+.top-streamers ul li {
+    width: 100%;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #353637;
+}
+
+.top-streamers ul li h6 {
+    font-size: 14px;
+    color: #ec6090;
+}
+
+.profile-list h6 i {
+    color: #fff;
+    background-color: #ec6090;
+    border-radius: 50%;
+    font-size: 10px;
+    width: 18px;
+    display: inline-block;
+    text-align: center;
+    line-height: 18px;
+    margin-right: 3px;
+}
+
+.follow-btn {
+    padding: 8px 20px;
+    font-size: 12px;
+    color: #fff;
+    background-color: #e75e8d;
+    border-radius: 23px;
+    letter-spacing: 0.5px;
+    transition: all 0.5s;
+}
+
+.follow-btn:hover {
+    color: #e75e8d;
+    background-color: #fff;
+}
+
+
+/*================================== Profile section   ============================================*/
+
+/*================================== 1 section  */
+
+.main-profile {
+    border-radius: 23px;
+    padding: 30px;
+    background-color: #1f2122;
+}
+
+.main-info span {
+    font-size: 12px;
+    color: #FFF;
+    background-color: #e75e8d;
+    padding: 8px 20px;
+    display: inline-block;
+    border-radius: 25px;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    transition: all 0.5s;
+}
+
+.main-info span:hover {
+    color: #e75e8d;
+    background-color: #fff;
+}
+
+.main-info h4 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.main-info p {
+    font-size: 15px;
+    line-height: 30px;
+    color: #666;
+    font-weight: 600;
+}
+
+.main-profile ul {
+    border-radius: 23px;
+    padding: 30px !important;
+    background-color: #27292a;
+}
+
+.main-profile ul li {
+    width: 100%;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #666;
+    font-weight: 600;
+}
+
+.main-profile ul li span {
+    color: #e75e8d;
+}
+
+/*================================== 1 section  */
+
+.clips {
+    margin-top: 30px;
+    border-top: 2px solid #27292a;
+}
+
+.clips .item-3 {
+    border-radius: 23px;
+    padding: 30px 15px;
+    background-color: #27292a;
+    margin-bottom: 30px;
+}
+
+.clips .item-3 a {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-23px, -23px);
+    width: 35px;
+    height: 35px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 35px;
+    color: #ec6090;
+    font-size: 14px;
+    transition: all 0.5s;
+}
+
+.clips .item-3 a:hover {
+    color: #FFF;
+    background-color: #e75e8d;
+}
+
+.down-content h4 {
+    font-size: 15px;
+    display: inline-block;
+    font-weight: 700;
+    color: #fff;
+}
+
+.down-content span i {
+    color: #e75e8d;
+}
+
+.down-content span {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+/*================================== media query   ============================================*/
+
+@media (max-width:1199px) {
+    .top-downloaded ul li span {
+        display: inline-block;
+    }
+
+    .download a i {
+        right: -20px;
+    }
+
+
+}
+
+@media (max-width:1199px) and (min-width:993px) {
+    .m-p-0 {
+        margin-bottom: 0 !important;
+        padding-bottom: 0px !important;
+    }
+
+}
+
+
+@media (max-width:1199px) and (min-width:992px) {
+
+
+    .top-streamers ul li h6 {
+        font-size: 12px;
+    }
+
+    .profile-list h6 i {
+        width: 15px;
+        line-height: 15px;
+    }
+
+    .profile-list img {
+        width: 35px;
+    }
+
+    .follow-btn {
+        padding: 8px 15px;
+    }
+
+}
+
+
+@media (max-width:992px) {
+    .s-box {
+        display: none !important;
+    }
+
+    .nav-profile img {
+        display: none;
+    }
+
+    .nav-profile a {
+        background-color: transparent;
+        padding: 11px 20px !important;
+    }
+
+    .logo {
+        border-right: transparent !important;
+    }
+
+    .item-2 ul li {
+        width: 48% !important;
+    }
+
+    .item-2 ul li:last-child {
+        text-align: left;
+    }
+
+    .templatemo-item {
+        margin: 12px 0px;
+    }
+
+    .main-border-button {
+        margin-top: 10PX;
+    }
+
+    .top-downloaded {
+        margin-top: 20px !important;
+    }
+
+}
+
+@media (max-width:991px) {
+    .main-info {
+        margin: 20px 0px;
+    }
+}
+
+
+@media (max-width:767px) {
+    .header-text h6 {
+        text-align: center;
+    }
+
+    .header-text h4 {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .main-button {
+        justify-content: center;
+        display: flex;
+
+    }
+
+    .page-content {
+        padding: 0px 30px;
+    }
+
+    .re-item h4 {
+        font-size: 18px !important;
+    }
+
+    .top-downloaded ul li i {
+        top: 20px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+
+
+}
+
+
+@media (max-width:425px) {
+    .heading-section h4 {
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .item-2 ul li,
+    .item-2 ul li:first-child,
+    .item-2 ul li:last-child {
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .item-2 ul li {
+        margin: 8px 0px;
+    }
+
+    .main-border-button a {
+        padding: 8px 25px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+
+    .left-info .left h4 {
+        font-size: 12px;
+    }
+
+    .left-info .left span {
+        font-size: 12px;
+
+    }
+
+    .left-info ul li {
+        font-size: 12px !important;
+    }
+
+    .right-info ul li {
+        font-size: 8px;
+    }
+
+    .right-info,
+    .left-info {
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .game-title h2 {
+        font-size: 35px;
+        margin: 30px 0px;
+    }
+
+    .text-cntr {
+        text-align: center;
+    }
+
+}
+
+
+
+@media (max-width:383px) {
+    .top-downloaded ul li span {
+        display: inline-block
+    }
+
+    .top-downloaded ul li {
+        margin-bottom: 0;
+    }
+}
+
+
+
+
+@media (max-width:375px) {
+    .main-button a {
+        font-size: 12px;
+        padding: 8px 10px;
+    }
+
+    .header-text h6 {
+        font-size: 16px;
+    }
+
+    .header-text h4 {
+        font-size: 25px;
+    }
+
+    .right-img a {
+        width: 30px;
+        height: 30px;
+        font-size: 12px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .game-de {
+        font-size: 14px;
+    }
+
+    .other-games .d-item h4 {
+        font-size: 13px;
+    }
+
+    .other-games .d-item span {
+        font-size: 12px;
+    }
+
+    .other-games ul li {
+        font-size: 12px;
+    }
+
+
+
+    .top-streamers ul li h6 {
+        font-size: 10px;
+    }
+
+    .profile-list h6 i {
+        width: 12px;
+        line-height: 12px;
+        font-size: 8px;
+    }
+
+    .profile-list img {
+        width: 30px;
+    }
+
+    .follow-btn {
+        padding: 6px 10px;
+        font-size: 8px;
+    }
+
+    .main-profile ul li {
+        font-size: 12px;
+    }
+
+    .down-content h4 {
+        font-size: 12px;
+    }
+
+    .down-content span {
+        font-size: 10px;
+    }
+}
+
+
+
+@media (max-width:328px) {
+    .top-downloaded ul li span {
+        font-size: 10px;
+    }
+
+    .top-downloaded ul li i {
+        width: 23px;
+        height: 23px;
+        line-height: 23px;
+        font-size: 9px;
+    }
+
+    .top-downloaded ul li h4,
+    .top-downloaded ul li h6 {
+        font-size: 10px;
+    }
+
+    .live-stream .card-body h4 {
+        font-size: 10px;
+    }
+
+    .live-stream span {
+        font-size: 12px;
+    }
+
+    .live-stream span i {
+        font-size: 8px;
+    }
+
+    .other-games .d-item img {
+        max-width: 60px;
+        border-radius: 50px;
+    }
+
+    .other-games .d-item h4 {
+        font-size: 11px;
+    }
+
+    .other-games .d-item span {
+        font-size: 10px;
+    }
+
+    .other-games ul li {
+        font-size: 10px;
+    }
+
+    .other-games .d-item img {
+        margin-right: 8px;
+    }
+
+
+}
+
+@media (max-width:362px) {
+    .live-stream .card-body h4 {
+        font-size: 10px;
+    }
+
+    .main-profile ul li {
+        font-size: 10px;
+    }
+}
